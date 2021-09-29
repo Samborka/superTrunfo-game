@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 854px;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png");
+  background-image: url("https://i.pinimg.com/originals/ed/85/14/ed8514862f59d60e813eb9b1e1504fdc.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -12,10 +12,12 @@ body {
 .container {
   text-align: center;
   padding: 20px;
+  color: black;
 }
-
+.container h2{
+  color: black;
+}
 .page-title {
-  color: #ffffff;
   margin: 5px 0;
 }
 
@@ -23,8 +25,9 @@ button,
 .button-jogar {
   padding: 0.8rem 1.5rem;
   margin: 1rem 0;
-  border-radius: 5px;
-  border: none;
+  background-color: green;
+  border-radius: 30px;
+  border: 1px solid black;
   font-size: 1rem;
 }
 
@@ -123,4 +126,23 @@ form {
 #numeroCartas {
   background-color: black;
   color: white;
+}
+.como-jogar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.como-jogar h1{
+  font-size: 36px;
+}
+.como-jogar button{
+  margin-top: 300px;
+  width: 200px;
+  background-color: green;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.lista-regras li{
+  padding: 5px;
+  font-size: 20px;
 }
